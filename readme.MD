@@ -6,7 +6,7 @@ singlyLinkedList.cpp is a menu-driven Cplusplus code that creates a singly linke
 
 2. insertingInSortedLinkedList.cpp-
 
-insertingInSortedLinkedList.cpp is a class-based CPlusPlus code that accepts a SORTED singly linked list and then inserts a new node to the existing list without messing up the sorted order.
+insertingInSortedLinkedList.cpp is a class-based CPlusPlus code that accepts a SORTED (ascending order) singly linked list and then inserts a new node to the existing list without messing up the sorted order.
 
 3. moreCodeCommingSoon.cpp-
 
