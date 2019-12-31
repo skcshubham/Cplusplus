@@ -12,7 +12,11 @@ insertingInSortedLinkedList.cpp is a class-based CPlusPlus code that accepts a S
 
 checkIfListIsSorted.cpp is a bunch of code that checks if the singly linked list is sorted (ascending order) or not and displays the result with appropriate message.
 
-4. moreCodeCommingSoon.cpp-
+4. removeDuplicateNode.cpp-
+
+removeDuplicateNode.cpp removes duplicate nodes from a sorted (ascending order) singly linked list.
+
+5. moreCodeCommingSoon.cpp-
 
 More code and files will be pushed as I code.
 
