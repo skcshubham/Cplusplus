@@ -16,7 +16,15 @@ checkIfListIsSorted.cpp is a bunch of code that checks if the singly linked list
 
 removeDuplicateNode.cpp removes duplicate nodes from a sorted (ascending order) singly linked list.
 
-5. moreCodeCommingSoon.cpp-
+5. reverseList.cpp-
+
+reverseList.cpp is code which reverses the singly linked list by reversing the link of the nodes in both ways: iterative way and recursive way.
+
+6. concatenateList.cpp-
+
+concatenateList.cpp is code which accepts two singly linked list and concatenates the second linked list to the end of first linked list without using any extra space.
+
+7. moreCodeCommingSoon.cpp-
 
 More code and files will be pushed as I code.
 
