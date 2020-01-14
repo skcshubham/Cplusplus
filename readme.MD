@@ -24,7 +24,15 @@ reverseList.cpp is code which reverses the singly linked list by reversing the l
 
 concatenateList.cpp is code which accepts two singly linked list and concatenates the second linked list to the end of first linked list without using any extra space.
 
-7. moreCodeCommingSoon.cpp-
+7. checkForLoop.cpp- 
+
+checkForLoop.cpp checks whether a singly linked list has loop or not. Loop means that the end pointer of a linked list is not NULL and points to some node.
+
+8. mergingTwoLists.cpp-
+
+mergingTwoLists.cpp merges two sorted singly linked list without using any extra space (does it in O(1) space). Merging is done by the help of a dummy head!
+
+9. moreCodeCommingSoon.cpp-
 
 More code and files will be pushed as I code.
 
