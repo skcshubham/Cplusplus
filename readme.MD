@@ -32,7 +32,20 @@ checkForLoop.cpp checks whether a singly linked list has loop or not. Loop means
 
 mergingTwoLists.cpp merges two sorted singly linked list without using any extra space (does it in O(1) space). Merging is done by the help of a dummy head!
 
-9. moreCodeCommingSoon.cpp-
+9. createAndDisplayCLL.cpp-
+
+This code creates a circular linked list and displays it to the user. (nothing fancy!)
+
+10. insertingInCLL.cpp-
+
+insertingInCLL.cpp is code which inserts a node to all the posible places in the linked list. Inserting the node in the beginning, to the end and to the specific position as specified by the user.
+One of the most challenging code I've written because maintaining the head in CLL is a huge pain in the a$$.
+
+11. deletingInCLL.cpp- 
+
+deletingInCLL.cpp enables us to delete any node from the Circular Linked List. From the beginnig, from any specified position and from the end of the list.
+Again, this code was also challenging as I had to maintain the head while deleting.
+
 
 More code and files will be pushed as I code.
 
