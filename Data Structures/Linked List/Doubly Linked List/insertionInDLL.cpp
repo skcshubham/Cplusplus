@@ -69,7 +69,7 @@ public:
         Node *temp= header;
         while(temp != NULL)
         {
-            cout<<temp->data<<" -> ";
+            cout<<temp->data<<" <=> ";
             temp= temp->next;
         }
         cout<<endl;

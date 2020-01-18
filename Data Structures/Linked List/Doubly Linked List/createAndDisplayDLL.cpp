@@ -55,7 +55,7 @@ public:
             Node *header= head;
             while(header != NULL)
             {
-                cout<<header->data<<" -> ";
+                cout<<header->data<<" <=> ";
                 header= header->next;
             }
             cout<<endl;
@@ -82,7 +82,7 @@ public:
             // printing the doubly linked list backwards
             while(tailer != NULL)
             {
-                cout<<tailer->data<<" -> ";
+                cout<<tailer->data<<" <=> ";
                 tailer= tailer->prev;
             }
             cout<<endl;
