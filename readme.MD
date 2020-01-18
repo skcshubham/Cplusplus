@@ -52,6 +52,8 @@ This code creates a Doubly Linked List, displays it and also lets user to insert
 14. deletionInDLL.cpp-
 This lets user to delete node from the given Doubly Linked List and the deletion can be done at the head, at the tail/end node or at any position given by the user.
 
+15. reverseDLL.cpp-
+This code accepts integer values to the doubly linked list and then reverses it and displays the resultant reverse list. 
 
 More code and files will be pushed as I code.
 
