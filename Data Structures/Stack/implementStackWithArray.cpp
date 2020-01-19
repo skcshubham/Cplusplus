@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 // structure of a stack
 
 struct stackStructure
@@ -66,7 +65,7 @@ int main()
     stack.array= new int[stack.size];
     stack.top= -1;
 
-    // ****** stack Operations ******
+    // ****** Stack Operations ******
 
     int option=0;
     int data= 0;
