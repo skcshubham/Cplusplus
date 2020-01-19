@@ -55,6 +55,11 @@ This lets user to delete node from the given Doubly Linked List and the deletion
 15. reverseDLL.cpp-
 This code accepts integer values to the doubly linked list and then reverses it and displays the resultant reverse list. 
 
+************ Stack *************
+
+16. implementationWithArray.cpp-
+This code shows the implementation of stack data structure with array and along with that all the operations on stack ADT has been performed like push(data), pop() and even peek(). 
+
 More code and files will be pushed as I code.
 
 
