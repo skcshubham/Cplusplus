@@ -63,6 +63,8 @@ This code shows the implementation of stack data structure with array and along 
 17. implementStackWithLinkedList.cpp-
 This object-oriented code shows the implementation of stack data structure with singly linked list and all the operations on stack ADT has been performed like push(data), pop() and even peek().
 
+18. parenthesisMatching.cpp-
+Its a code which uses stack to validate parenthesis in an expression, i.e. checks if the parenthesis of an expression is valid.
 
 More code and files will be pushed as I code.
 
