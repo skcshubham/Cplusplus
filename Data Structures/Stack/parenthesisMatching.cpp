@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 using namespace std;
+bool isMatching= true;
 
 // structure of a stack
 
@@ -31,51 +32,55 @@ void push(char data)
 
 // function to pop elements from the stack
 
-bool pop()
+char pop()
 {
     if(stack.top == -1)
-    {
-        cout<<"Underflow of Stack"<<endl;
-        return false;
-    }
+        isMatching= false;
     else
-    {
-        // displaying the popped value and then decrementing the top pointer
-        stack.top--;
-    }
+        // returning the popped value and then decrementing the top pointer
+        return stack.array[stack.top--];
+
 } // end of pop() function
 
 
 int main()
 {
-    // boolean to keep track of the result of parenthesis matching
-    bool match= false;
+    // match variable to keep track that closing bracket and opening brackets are in sequence
+    char match= '\0';
 
     // resetting the stack variables and attributes
     stack.top= -1;
     stack.array= new char[1000];
 
-    // inserting parenthesis to stack to match for validity
-    char expression[1000];
     cout<<"Enter the Expression to match the parenthesis: ";
-    cin>>expression;
-    int len= strlen(expression);
+    cin>>stack.array;
 
     // traversing through the character array and matching parenthesis
-    for(int i=0; i<len-1; i++)
+    for(int i=0; stack.array[i] != NULL; i++)
     {
         // if character is an opening bracket
-        if(expression[i] == '(')
-            push('(');
+        if(stack.array[i] == '(' || stack.array[i] == '{' || stack.array[i] == '[')
+            push(stack.array[i]);
         // if character is a closing bracket
-        else if(expression[i] == ')')
+        else if(stack.array[i] == ')' || stack.array[i] == '}' || stack.array[i] == ']')
+        {
             match= pop();
+            // if the element popped is ( but top of the stack is } or ]
+            if(match == '(' && (stack.array[i] == '}' || stack.array[i] == ']'))
+                isMatching= false;
+            // if the element popped is { but top of the stack is ) or ]
+            else if(match == '{' && (stack.array[i] == ')' || stack.array[i] == ']'))
+                isMatching= false;
+            // if the element popped is [ but top of the stack is } or )
+            else if(match == '[' && (stack.array[i] == '}' || stack.array[i] == ')'))
+                isMatching= false;
+        }
         // if character is anything else we do nothing
         else
             continue;
     }
 
-    if(stack.top == 0)
+    if(isMatching == true && stack.top == -1)
         cout<<"Parenthesis Matched"<<endl;
     else
         cout<<"Not matched"<<endl;
