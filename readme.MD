@@ -69,6 +69,12 @@ It's a code which uses stack to validate parenthesis in an expression, i.e. chec
 19. evaluatePostfixExpression.cpp-
 This code takes postfix expression as string from the user and then implements and evaluate it using the concept of stack and displays it to user in linear time complexity.
 
+
+************ Queue: ************
+
+20. implementQueueWithArray.cpp- 
+I implemented queue data structure (FIFO) with Array data structure in this code and functionality like enqueue and dequeue is enabled in it. It is also a menu driven program and you can have fun with it.
+
 More code and files will be pushed as I code.
 
 
