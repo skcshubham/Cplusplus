@@ -75,6 +75,9 @@ This code takes postfix expression as string from the user and then implements a
 20. implementQueueWithArray.cpp- 
 I implemented queue data structure (FIFO) with Array data structure in this code and functionality like enqueue and dequeue is enabled in it. It is also a menu driven program and you can have fun with it.
 
+21. implementQueueWithLinkedList.cpp-
+Implemented Queue data structure using a singly linked list and added the enqueue and dequeue functionality into a menu driven paradigm.
+
 More code and files will be pushed as I code.
 
 
