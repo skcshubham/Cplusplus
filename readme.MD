@@ -70,13 +70,16 @@ It's a code which uses stack to validate parenthesis in an expression, i.e. chec
 This code takes postfix expression as string from the user and then implements and evaluate it using the concept of stack and displays it to user in linear time complexity.
 
 
-************ Queue: ************
+************ Queue: **************
 
 20. implementQueueWithArray.cpp- 
 I implemented queue data structure (FIFO) with Array data structure in this code and functionality like enqueue and dequeue is enabled in it. It is also a menu driven program and you can have fun with it.
 
 21. implementQueueWithLinkedList.cpp-
-Implemented Queue data structure using a singly linked list and added the enqueue and dequeue functionality into a menu driven paradigm.
+I Implemented Queue data structure using a singly linked list and added the enqueue and dequeue functionality into a menu driven paradigm.
+
+22. implementingCircularQueue.cpp-
+I implemented Circular Queue using the concept of rotating pointers to improve the utilization of space in array implementation of a queue.
 
 More code and files will be pushed as I code.
 
