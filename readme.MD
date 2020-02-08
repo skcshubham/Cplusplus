@@ -1,6 +1,8 @@
 Data Structure:
 
+
 ************ Linked List: ************
+
 
 ---------- Singly Linked List: ------------
 
@@ -55,7 +57,9 @@ This lets user to delete node from the given Doubly Linked List and the deletion
 15. reverseDLL.cpp-
 This code accepts integer values to the doubly linked list and then reverses it and displays the resultant reverse list. 
 
+
 ************ Stack *************
+
 
 16. implementStackWithArray.cpp-
 This code shows the implementation of stack data structure with array and along with that all the operations on stack ADT has been performed like push(data), pop() and even peek().
@@ -72,6 +76,7 @@ This code takes postfix expression as string from the user and then implements a
 
 ************ Queue: **************
 
+
 20. implementQueueWithArray.cpp- 
 I implemented queue data structure (FIFO) with Array data structure in this code and functionality like enqueue and dequeue is enabled in it. It is also a menu driven program and you can have fun with it.
 
@@ -80,6 +85,16 @@ I Implemented Queue data structure using a singly linked list and added the enqu
 
 22. implementingCircularQueue.cpp-
 I implemented Circular Queue using the concept of rotating pointers to improve the utilization of space in array implementation of a queue.
+
+23. queueUsingTwoStacks.cpp-
+I Implemented a Queue data structure (FIFO) using two Stacks (LIFO) using a functions-based menu-driven paradigm codebase.
+
+
+************ Trees: ************
+
+
+24.
+
 
 More code and files will be pushed as I code.
 
