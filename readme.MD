@@ -93,7 +93,12 @@ I Implemented a Queue data structure (FIFO) using two Stacks (LIFO) using a func
 ************ Trees: ************
 
 
-24.
+---------- Binary Trees: ------------
+
+
+24. implementBinaryTreeUsingArray.cpp-
+I implemented a (Complete) Binary Tree using an array but other trees can't be implemented using arrays as these are store sequentially in array and it can't efficiently store blank or empty spaces as in incomplete or n-ary trees.
+
 
 
 More code and files will be pushed as I code.
