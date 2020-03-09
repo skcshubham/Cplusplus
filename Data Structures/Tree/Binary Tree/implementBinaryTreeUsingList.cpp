@@ -24,7 +24,7 @@ struct QueueNode
     // address of tree has to be pushed hence data holds structure of treeNode
     treeNode *data;
     QueueNode *link;
-}*front, *back;
+}*front= NULL, *back= NULL;
 
 // adding from the end of the linked list in O(1) time
 
@@ -69,13 +69,6 @@ treeNode* dequeue()
 */
 
 
- // functions for tree
-
-int isEmpty()
-{
-    return (front == back);
-}
-
 void Preorder(treeNode* p)
 {
     if(p != NULL)
@@ -90,7 +83,6 @@ void createBinaryTree()
 {
     // extra pointers that we need
     treeNode *ask= new treeNode;
-    treeNode *makeChild= new treeNode;
     treeNode *mainRoot= new treeNode;
 
 
@@ -107,7 +99,7 @@ void createBinaryTree()
 
     // looping through the nodes and pushing it to he queue
 
-    while( isEmpty() ) // runs until the queue is not empty
+    while( !(front == NULL) ) // runs until the queue is not empty
     {
         // dequeuing the queue and storing the address to pointer p and making it point on that address
         ask= dequeue();
@@ -120,9 +112,10 @@ void createBinaryTree()
         // if value is not -1, we create left child
         if(value != -1)
         {
+            treeNode *makeChild= new treeNode;
             // creating a node and then assigning it to 0
             makeChild->data= value;
-            makeChild->left= makeChild->right= 0;
+            makeChild->left= makeChild->right= NULL;
             // setting the left pointer of previous node/parent node to makeChild and pushing address to queue
             ask->left= makeChild;
             enqueue(makeChild);
@@ -140,9 +133,10 @@ void createBinaryTree()
         // if value is not -1, we create left child
         if(value != -1)
         {
+            treeNode *makeChild= new treeNode;
             // creating a node and then assigning it to 0
             makeChild->data= value;
-            makeChild->left= makeChild->right= 0;
+            makeChild->left= makeChild->right= NULL;
             // setting the left pointer of previous node/parent node to makeChild and pushing address to queue
             ask->right= makeChild;
             enqueue(makeChild);
@@ -156,12 +150,13 @@ void createBinaryTree()
 
 int main()
 {
-    int data= 0, node= 0;
+    int node= 0;
 
     createBinaryTree();
 
     // preorder traversal
 
+    cout<<"Preorder traversal: ";
     Preorder(root);
 
     return 0;
