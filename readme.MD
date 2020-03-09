@@ -100,7 +100,7 @@ I Implemented a Queue data structure (FIFO) using two Stacks (LIFO) using a func
 I implemented a (Complete) Binary Tree using an array but other trees can't be implemented using arrays as these are store sequentially in array and it can't efficiently store blank or empty spaces as in incomplete or n-ary trees.
 
 25. implementBinaryTreeUsingList.cpp-
-Buggy Implementation of Binary Tree using list. The code has bugs and not ready.
+In Linked list, we maintain a head pointer but here in tree, we maintain a root pointer. We are going to generate the tree level by level. We need a queue data structure to store the address of the nodes and ask at each node whether it has right or left child or not. We maintain a queue to make sure that we go to each node and ask if the child of the element exists or not. If it exists, then we again create a node and then, push the address of that node to the queue and pop an address again from the queue and go over the same shit again.
 
 
 More code and files will be pushed as I code.
