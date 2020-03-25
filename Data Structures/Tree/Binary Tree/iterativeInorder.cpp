@@ -40,7 +40,7 @@ void createTree()
 
         // left child
 
-        cout<<"Enter the left node: ";
+        ccout<<"Enter the left child of "<<pointer->data<<" : ";
         cin>>value;
 
         if(value != -1)
@@ -59,7 +59,7 @@ void createTree()
 
         // right child
 
-        cout<<"Enter the right node: ";
+        cout<<"Enter the right child of "<<pointer->data<<" : ";
         cin>>value;
 
         if(value != -1)
