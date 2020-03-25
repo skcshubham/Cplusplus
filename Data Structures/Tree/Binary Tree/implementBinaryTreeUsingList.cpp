@@ -107,7 +107,7 @@ void createBinaryTree()
         // For Left Child
 
         // being here we ask for the value of left child and right child and if it's not -1 we create it
-        cout<<"Enter the value of left child: ";
+        cout<<"Enter the left child of "<<pointer->data<<" : ";
         cin>>value;
         // if value is not -1, we create left child
         if(value != -1)
@@ -128,7 +128,7 @@ void createBinaryTree()
 
 
         // being here we ask for the value of left child and right child and if it's not -1 we create it
-        cout<<"Enter the value of right child: ";
+        cout<<"Enter the right child of "<<pointer->data<<" : ";
         cin>>value;
         // if value is not -1, we create left child
         if(value != -1)
