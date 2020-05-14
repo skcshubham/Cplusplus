@@ -1,6 +1,7 @@
 1. Algorithms-
 
 	- Divide and Conquer
+	
 		-binarySearch.cpp
 
 2. Data Structures-
