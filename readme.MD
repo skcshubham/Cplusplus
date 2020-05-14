@@ -1,14 +1,15 @@
 1. Algorithms-
 
-	- Divide and Conquer
+	-Divide and Conquer
 	
-		-binarySearch.cpp
+			-binarySearch.cpp
 
 2. Data Structures-
 
 	-Linked List
 
 		-Singly Linked List
+			
 			-checkForLoop.cpp
 			-checkIfListIsSorted.cpp
 			-concatenateList.cpp
@@ -19,12 +20,14 @@
 			-singlyLinkedList.cpp
 
 		-Doubly Linked List
+			
 			-createAndDisplayDLL.cpp
 			-deletionInDLL.cpp
 			-insertionInDLL.cpp
 			-reversingDLL.cpp
 
 		-Circular Linked List
+			
 			-createAndDisplayCLL.cpp
 			-deletionInCLL.cpp
 			-insertingInCLL.cpp
@@ -65,8 +68,8 @@
 
 3. STL-
 	
-	-list.cpp
-	-stackAndQueue.cpp
-	-templateFunction.cpp
-	-treeUsingQueueSTL.cpp
-	-vector.cpp
+		-list.cpp
+		-stackAndQueue.cpp
+		-templateFunction.cpp
+		-treeUsingQueueSTL.cpp
+		-vector.cpp
