@@ -71,6 +71,11 @@
 		-BreadthFirstTraversal.cpp
 		-DepthFirstTraversal.cpp
 
+	-Hashing
+		
+		-NaiveHashing.cpp
+
+
 3. STL-
 	
 		-list.cpp
