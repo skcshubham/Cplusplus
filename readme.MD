@@ -73,7 +73,8 @@
 
 	-Hashing
 		
-		-NaiveHashing.cpp
+		-naiveHashing.cpp
+		-chaining.cpp
 
 
 3. STL-
