@@ -32,14 +32,14 @@
 			-deletionInCLL.cpp
 			-insertingInCLL.cpp
 
-	-Stack
+	-Queue
 		
 		-implementingcircularQueue.cpp
 		-implementQueueWithArray.cpp
 		-implementQueueWithLinkedList.cpp
 		-queueUsingTwoStacks.cpp
 	
-	-Queue
+	-Stack
 
 		-implementStackWithArray.cpp
 		-implementStackWithLinkedList.cpp
