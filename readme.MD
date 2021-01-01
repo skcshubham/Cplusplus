@@ -31,20 +31,20 @@
 			-createAndDisplayCLL.cpp
 			-deletionInCLL.cpp
 			-insertingInCLL.cpp
-
+			
 	-Stack
+
+		-implementStackWithArray.cpp
+		-implementStackWithLinkedList.cpp
+		-parenthesisMatching.cpp
+		-evaluatePostfixExpression.cpp		
+
+	-Queue
 		
 		-implementingcircularQueue.cpp
 		-implementQueueWithArray.cpp
 		-implementQueueWithLinkedList.cpp
 		-queueUsingTwoStacks.cpp
-	
-	-Queue
-
-		-implementStackWithArray.cpp
-		-implementStackWithLinkedList.cpp
-		-parenthesisMatching.cpp
-		-evaluatePostfixExpression.cpp
 	
 	-Binary Tree
 
